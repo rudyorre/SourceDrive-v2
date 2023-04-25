@@ -36,7 +36,7 @@ const CoursesPage = () => {
       <div className="section" id="courses">
         <div className="text-center">
           <div className="sm:text-3xl text-2xl font-bold mb-5">
-            Course <span className="text-Teal">Catelog</span>
+            Course <span className="text-Teal">Catalog</span>
           </div>
           <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto">
           Whether you&apos;re interested in building software applications, developing 
