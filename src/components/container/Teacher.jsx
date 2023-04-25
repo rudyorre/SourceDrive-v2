@@ -1,8 +1,10 @@
 import React from "react";
-import teacher1 from "../../assets/teacher1.png";
-import teacher2 from "../../assets/teacher2.png";
+import teacher1 from "public/images/teacher1.png";
+import teacher2 from "public/images/teacher2.png";
 import { accordions } from "../../Data";
 import Accordion from "./Accordion";
+import Image from 'next/image';
+
 const Teacher = () => {
   return (
     <div className="section" id="teacher">
@@ -26,7 +28,8 @@ const Teacher = () => {
           </button>
         </div>
         <div className="p-4 md:w-3/4 sm:row-start-1">
-          <img src={teacher1} alt="" />
+          {/* <img src={teacher1} alt="" /> */}
+          <Image src={teacher1} />
         </div>
         <div className="pl-5">
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
@@ -44,7 +47,8 @@ const Teacher = () => {
           </button>
         </div>
         <div className="p-4 md:w-3/4">
-          <img src={teacher2} alt="" />
+          {/* <img src={teacher2} alt="" /> */}
+          <Image src={teacher2} />
         </div>
       </div>
       {/* <div className="text-center my-8 font-bold sm:text-[1.875rem] text-[1.5rem]">
