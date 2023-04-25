@@ -17,10 +17,10 @@ const Footer = () => {
     >
       <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 place-items-start gap-8 text-white">
         <div>
-          <div className="font-bold mb-6">Get Started</div>
+          <div className="font-bold mb-6">Mission</div>
           <p className="text-sm leading-7">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo neque
-            saepe cumque. Veritatis sunt commodi
+          Our mission is to provide free and open-source computer science education 
+          to anyone, anywhere, regardless of their background or resources.
           </p>
         </div>
         <div>
@@ -59,9 +59,9 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <div className="font-bold mb-6">Follow us</div>
+          {/* <div className="font-bold mb-6">Follow us</div>
           <div className="text-sm mb-4">skillexlearning@gmail.com</div>
-          <div className="text-sm">+959883271929</div>
+          <div className="text-sm">+959883271929</div> */}
           <div className="flex gap-4 mt-4">
             <a href="" className="hover:scale-110 text-xl">
               <BsFacebook />

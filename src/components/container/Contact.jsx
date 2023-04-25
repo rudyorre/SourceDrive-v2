@@ -5,12 +5,12 @@ const Contact = () => {
     <div className="section" id="contact">
       <div className="text-center max-w-[600px] mx-auto">
         <div className="sm:text-3xl text-2xl font-bold mb-5">
-          Subscribe Newsletter
+          Subscribe to our Newsletter
         </div>
         <p className="text-sm leading-7 text-gray">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem
-          minus doloribus voluptatem illo velit quia eum aperiam! Repudiandae,
-          tempore. Lorem ipsum dolor sit amet.
+          We will be be sending out a newsletter on any new offerings added to our
+          platform, as well as any new features that come to the website. Nothing
+          will be an advertisement for profit.
         </p>
         <motion.form
           initial={{ scale: 0 }}

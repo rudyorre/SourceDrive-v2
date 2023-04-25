@@ -13,10 +13,13 @@ const Teacher = () => {
             Our Platform
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            perferendis debitis dolorum facilis culpa, quidem voluptate suscipit
-            deserunt. Magni neque at eos dolore dignissimos fugit repudiandae?
-            Aut laudantium asperiores et!
+            At SourceDrive, we're always on the lookout for passionate and knowledgeable 
+            instructors to help us expand our course offerings. If you're an expert in 
+            computer science or software engineering and would like to share your knowledge 
+            with our community, we invite you to become an instructor for our platform. As a 
+            free and open-source platform, your course will instantly gain visibility and bring 
+            awareness to your expertise in the field. Join us in our mission to make quality 
+            computer science education accessible to all!
           </p>
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
             Start Teaching
@@ -27,14 +30,14 @@ const Teacher = () => {
         </div>
         <div className="pl-5">
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
-            Become <span className="text-Teal">An Instructor</span> <br /> of
-            Our Platform
+            Contribute via <span className="text-Teal">Open Source</span>
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            perferendis debitis dolorum facilis culpa, quidem voluptate suscipit
-            deserunt. Magni neque at eos dolore dignissimos fugit repudiandae?
-            Aut laudantium asperiores et!
+          We welcome contributions from developers and educators alike to help 
+          improve and grow our platform. Whether you're a seasoned coder or an expert in computer 
+          science education, your contributions can make a difference. Help us organize and expand 
+          our catalog of courses or contribute to the source code of our website to create a better 
+          user experience. Even if you're new to open source, we will guide you step-by-step.
           </p>
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
             Get Started
@@ -44,14 +47,14 @@ const Teacher = () => {
           <img src={teacher2} alt="" />
         </div>
       </div>
-      <div className="text-center my-8 font-bold sm:text-[1.875rem] text-[1.5rem]">
+      {/* <div className="text-center my-8 font-bold sm:text-[1.875rem] text-[1.5rem]">
         Frequently <span className="text-Teal">Asked Questions</span>
       </div>
       <div className="mt-12 max-w-[700px] mx-auto">
         {accordions.map((accordion) => {
           return <Accordion key={accordion.id} {...accordion} />;
         })}
-      </div>
+      </div> */}
     </div>
   );
 };

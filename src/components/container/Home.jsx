@@ -4,7 +4,10 @@ import laptop from '../../assets/laptop.jpg'
 import { logos } from "../../Data";
 import { motion } from "framer-motion";
 
+import Image from 'next/image'
+
 const Home = () => {
+  const logos = ['duke', 'berkeley', 'mit', 'stanford', 'princeton', 'gt'];
   const container = {
     hidden: {
       opacity: 0,
@@ -67,7 +70,7 @@ const Home = () => {
         >
           {logos.map((logo, index) => (
             <motion.div variants={item} className="w-28" key={index}>
-              <img src={logo} alt="" className="w-full object-cover" />
+              <img src={`./logos/${logo}.png`} alt="" className="w-full object-cover" />
             </motion.div>
           ))}
         </motion.div>

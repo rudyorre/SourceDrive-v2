@@ -5,6 +5,7 @@ import { courses } from '../../../constants/courses';
 import Categories from "./Categories";
 import Course from "./Course";
 import { motion } from "framer-motion";
+import Link from 'next/link';
 
 const Courses = () => {
   const container = {
@@ -52,6 +53,14 @@ const Courses = () => {
             return <Course key={course.id} {...course} />;
           })}
         </div>
+      </div>
+      <br />
+      <div className="">
+        <Link href="/courses">
+          <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold">
+            All Courses
+          </button>
+        </Link>
       </div>
     </div>
   );
