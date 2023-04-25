@@ -8,7 +8,7 @@ const Course = ({ image, category, title, participants, rating, price, school, d
       <div className="p-2 shadow-lg min-w-[15rem] bg-white rounded-md">
         <img src={image} className="object-cover h-32 w-96" alt="" />
         <div className="mt-2 text-xs text-Teal">{category}</div>
-        <div className="text-sm mt-2 font-bold">{title}</div>
+        <div className="text-sm mt-2 font-bold  line-clamp-2 truncate-none">{title}<br />.</div>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="text-sm">{duration}</div>
@@ -19,7 +19,7 @@ const Course = ({ image, category, title, participants, rating, price, school, d
             </div>  
             <div className="text-sm font-bold">{rating}</div>
           </div> */}
-          
+
           <div className="text-sm font">{school}</div>
         </div>
       </div>

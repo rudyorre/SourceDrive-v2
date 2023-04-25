@@ -47,7 +47,7 @@ const CoursesPage = () => {
           </p>
         </div>
         
-        <div className="text-xl font-bold mt-32">Course Offering</div>
+        <div className="text-xl font-bold mt-32">Course Offerings</div>
         <div className="mt-12 overflow-x-hidden w-full  relative">
         <div className="flex gap-12 flex-wrap" style={{  }}>
           {courses.map((course) => {
