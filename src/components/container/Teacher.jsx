@@ -13,8 +13,8 @@ const Teacher = () => {
             Our Platform
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            At SourceDrive, we're always on the lookout for passionate and knowledgeable 
-            instructors to help us expand our course offerings. If you're an expert in 
+            At SourceDrive, we&apos;re always on the lookout for passionate and knowledgeable 
+            instructors to help us expand our course offerings. If you&apos;re an expert in 
             computer science or software engineering and would like to share your knowledge 
             with our community, we invite you to become an instructor for our platform. As a 
             free and open-source platform, your course will instantly gain visibility and bring 
@@ -34,10 +34,10 @@ const Teacher = () => {
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
           We welcome contributions from developers and educators alike to help 
-          improve and grow our platform. Whether you're a seasoned coder or an expert in computer 
+          improve and grow our platform. Whether you&apos;re a seasoned coder or an expert in computer 
           science education, your contributions can make a difference. Help us organize and expand 
           our catalog of courses or contribute to the source code of our website to create a better 
-          user experience. Even if you're new to open source, we will guide you step-by-step.
+          user experience. Even if you&apos;re new to open source, we will guide you step-by-step.
           </p>
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
             Get Started

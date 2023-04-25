@@ -39,9 +39,9 @@ const CoursesPage = () => {
             Course <span className="text-Teal">Catelog</span>
           </div>
           <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto">
-          Whether you're interested in building software applications, developing 
+          Whether you&apos;re interested in building software applications, developing 
           complex algorithms, understanding how computer systems work, or exploring 
-          the foundational principles of computer science, we've got you covered. 
+          the foundational principles of computer science, we&apos;ve got you covered. 
           Mix and match courses from different categories to create a personalized learning 
           path that suits your unique interests and career goals.
           </p>
@@ -51,7 +51,7 @@ const CoursesPage = () => {
         <div className="mt-12 overflow-x-hidden w-full  relative">
         <div className="flex gap-12 flex-wrap" style={{  }}>
           {courses.map((course) => {
-            return <div className="w-[20%]"><Course key={course.id} {...course} /></div>;
+            return <div className="w-[20%]" key={course.id}><Course key={course.id} {...course} /></div>;
           })}
         </div>
       </div>

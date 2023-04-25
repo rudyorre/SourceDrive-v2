@@ -29,9 +29,9 @@ const Courses = () => {
           Our Top <span className="text-Teal">Categories</span>
         </div>
         <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto">
-        Whether you're interested in building software applications, developing 
+        Whether you&apos;re interested in building software applications, developing 
         complex algorithms, understanding how computer systems work, or exploring 
-        the foundational principles of computer science, we've got you covered. 
+        the foundational principles of computer science, we&apos;ve got you covered. 
         Mix and match courses from different categories to create a personalized learning 
         path that suits your unique interests and career goals.
         </p>
