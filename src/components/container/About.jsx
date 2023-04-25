@@ -1,7 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 // import about from 'public/images/about.jpg';
-import about from '../../assets/about.jpg';
+import aboutimage from '../../assets/aboutimage.jpg';
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
       <div className="grid md:grid-cols-2 gap-8 place-items-center">
         <div className="border-[3px] border-solid border-Teal rounded-lg">
           {/* <img src={about} alt="" className="p-4" /> */}
-          <Image src={about} />
+          <Image src={aboutimage} />
         </div>
         <div>
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
