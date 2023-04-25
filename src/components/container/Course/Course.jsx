@@ -19,6 +19,7 @@ const Course = ({ image, category, title, participants, rating, price, school, d
             </div>  
             <div className="text-sm font-bold">{rating}</div>
           </div> */}
+          
           <div className="text-sm font">{school}</div>
         </div>
       </div>
